@@ -16,6 +16,9 @@ group :development, :test do
   gem 'spring-commands-rspec'
   gem 'guard'
   gem 'guard-rspec'
+  gem 'pry'
+  gem 'pry-nav'
+  gem 'fabrication'
 end
 
 group :development do
@@ -25,6 +28,9 @@ end
 
 group :test do
 	gem 'capybara'
+	gem 'faker'
+	gem 'database_cleaner'
+
 end
 
 
