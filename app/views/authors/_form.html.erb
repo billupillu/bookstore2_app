@@ -1,0 +1,15 @@
+<section id="phorm">
+<%=bootstrap_form_for(@author,html: {class: "form-horizontal"}) do |f|%>
+	<div class="form-group">
+		<%=f.text_field :first_name, placeholder: "enter First Name (ex: Bill)", class: "form-control", hide_label: true%>
+	</div>
+<br>
+	<div class="form-group">
+		<%=f.text_field :last_name, placeholder: "enter Last Name (ex: Gates)", class: "form-control", hide_label: true%>
+	</div>
+<br>	
+	<div class="form-group actions control-group">
+		<%=f.submit%>
+	</div>
+<%end%>
+</section>
